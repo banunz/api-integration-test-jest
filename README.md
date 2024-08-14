@@ -1,7 +1,7 @@
 # Running the API Integration Test
 ### Clone the Project:
 
-If you haven't already, clone the project repository to your local machine.
+If you haven't cloned the project, please do so and navigate to the root directory.
 Navigate to the Root Folder:
 
 Change to the root directory of the project:
