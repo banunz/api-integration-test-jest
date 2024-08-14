@@ -33,8 +33,42 @@ This will execute the Jest test cases for the API.
 By following these steps, you should be able to run the API integration tests successfully.
 
 Below is a Jest test suite containing three test cases for the provided code. 
-# Jest Test Suites for Todo API
 
+# Setting Up Your Environment for Testing with Jest and Axios
+
+## Prerequisites
+
+**Install Node.js:**
+
+Ensure that Node.js is installed on your system. You can download it from [here](https://nodejs.org/). After installation, verify it by running:
+
+```sh
+node -v
+npm -v
+```
+
+## Installation Steps
+Initialize a Node.js project:
+If you don't already have a package.json file, create one by running:
+
+```sh
+npm init -y
+```
+
+## Install Jest:
+Install Jest as a development dependency:
+```sh
+npm install --save-dev jest
+```
+## Install Axios:
+Install Axios as a dependency:
+
+```sh
+npm install axios
+```
+Make sure you have docker container.
+
+# Jest Test Suites for Todo API
 ## 1. `todolist-post.test.js`
 This Jest test suite contains three test cases that validate different scenarios for the `POST /api/todoItems` endpoint:
 
